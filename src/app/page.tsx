@@ -11,7 +11,7 @@ import TableOfContentsSlide from "@/slides/table-of-contents/table-of-contents.s
 export default function Home(): ReactElement {
   return (
     <>
-      <CoverSlide heading="What Is Rest API?" basePath="/rest" />
+      <CoverSlide heading="How the Web Works" basePath="/web" />
       <TableOfContentsSlide contents={["Network", "API", "HTTP"]} />
       <NetworkChapter />
       <ApiChapter />

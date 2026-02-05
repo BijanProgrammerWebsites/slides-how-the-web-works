@@ -11,8 +11,8 @@ import "./reveal.css";
 const worksans = Work_Sans({ subsets: ["latin"], variable: "--font-worksans" });
 
 export const metadata: Metadata = {
-  title: "What Is Rest API?",
-  description: "What Is Rest API? by BijanProgrammer",
+  title: "How the Web Works",
+  description: "How the Web Works by BijanProgrammer",
 };
 
 export default function RootLayout({
