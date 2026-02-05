@@ -12,7 +12,7 @@ export default function Home(): ReactElement {
   return (
     <>
       <CoverSlide heading="What Is Rest API?" basePath="/rest" />
-      <TableOfContentsSlide contents={["HTTP"]} />
+      <TableOfContentsSlide contents={["Network", "API", "HTTP"]} />
       <NetworkChapter />
       <ApiChapter />
       <HttpChapter />
