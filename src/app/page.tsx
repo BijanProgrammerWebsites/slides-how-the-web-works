@@ -1,5 +1,6 @@
 import { ReactElement } from "react";
 
+import ApiChapter from "@/chapter/api/api.chapter";
 import NetworkChapter from "@/chapter/network/network.chapter";
 import RestfulAndHttpChapter from "@/chapter/restful-and-http/restful-and-http.chapter";
 
@@ -14,6 +15,7 @@ export default function Home(): ReactElement {
       <TableOfContentsSlide contents={["RESTful & HTTP"]} />
       <RestfulAndHttpChapter />
       <NetworkChapter />
+      <ApiChapter />
       <ClosingSlide />
     </>
   );
